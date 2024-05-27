@@ -1,0 +1,10 @@
+C:\TLHT\HK2_2023-2024\LapTrinhMangCanBan\TH\LAB5\Lab5\Lab5\bin\Debug\Lab5.exe.config
+C:\TLHT\HK2_2023-2024\LapTrinhMangCanBan\TH\LAB5\Lab5\Lab5\bin\Debug\Lab5.exe
+C:\TLHT\HK2_2023-2024\LapTrinhMangCanBan\TH\LAB5\Lab5\Lab5\bin\Debug\Lab5.pdb
+C:\TLHT\HK2_2023-2024\LapTrinhMangCanBan\TH\LAB5\Lab5\Lab5\obj\Debug\Lab5.csproj.AssemblyReference.cache
+C:\TLHT\HK2_2023-2024\LapTrinhMangCanBan\TH\LAB5\Lab5\Lab5\obj\Debug\Lab5.Form1.resources
+C:\TLHT\HK2_2023-2024\LapTrinhMangCanBan\TH\LAB5\Lab5\Lab5\obj\Debug\Lab5.Properties.Resources.resources
+C:\TLHT\HK2_2023-2024\LapTrinhMangCanBan\TH\LAB5\Lab5\Lab5\obj\Debug\Lab5.csproj.GenerateResource.cache
+C:\TLHT\HK2_2023-2024\LapTrinhMangCanBan\TH\LAB5\Lab5\Lab5\obj\Debug\Lab5.csproj.CoreCompileInputs.cache
+C:\TLHT\HK2_2023-2024\LapTrinhMangCanBan\TH\LAB5\Lab5\Lab5\obj\Debug\Lab5.exe
+C:\TLHT\HK2_2023-2024\LapTrinhMangCanBan\TH\LAB5\Lab5\Lab5\obj\Debug\Lab5.pdb
