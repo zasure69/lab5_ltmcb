@@ -40,7 +40,7 @@ namespace Lab5
             tbAttach.Text = "";
         }
 
-        private void SendMail(string subject, string body, string mailto, string mailfrom, string password)
+        private void SendMail(string subject, string body, string mailto, string mailfrom, string password, string attach)
         {
             using (SmtpClient smtpClient = new SmtpClient("smtp.gmail.com"))
             {
@@ -58,15 +58,15 @@ namespace Lab5
                     message.To.Add(mailto);
                     message.Body = body;
 
-                    if (tbAttach.Text != "")
+                    if (attach != "")
                     {
-                        Attachment attachment = new Attachment(tbAttach.Text);
+                        Attachment attachment = new Attachment(attach);
                         message.Attachments.Add(attachment);
                     }
 
                     try
                     {
-                        CleanUp();
+                        
                         smtpClient.Send(message);
                         MessageBox.Show("Send successfully!");
                         
@@ -89,16 +89,23 @@ namespace Lab5
             string password = tbPassword.Text.Trim();
             string subject = tbSubject.Text.Trim();
             string body = rtbBody.Text.Trim();
+            string attach = tbAttach.Text.Trim();
+            CleanUp();
 
             try
             {
-                SendMail(subject, body, mailto, mailfrom, password);
+                SendMail(subject, body, mailto, mailfrom, password, attach);
             }
             catch (Exception ex)
             {
                 MessageBox.Show(ex.Message);
             }
             
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

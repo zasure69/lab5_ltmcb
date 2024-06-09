@@ -42,6 +42,7 @@
             this.tbAttach = new System.Windows.Forms.TextBox();
             this.btnSend = new System.Windows.Forms.Button();
             this.btnAttach = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // tbFrom
@@ -171,11 +172,22 @@
             this.btnAttach.UseVisualStyleBackColor = false;
             this.btnAttach.Click += new System.EventHandler(this.btnAttach_Click);
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(22, 623);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(139, 37);
+            this.button1.TabIndex = 14;
+            this.button1.Text = "Exit";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // Bai3
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1064, 689);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.btnAttach);
             this.Controls.Add(this.btnSend);
             this.Controls.Add(this.label6);
@@ -213,5 +225,6 @@
         private System.Windows.Forms.TextBox tbAttach;
         private System.Windows.Forms.Button btnSend;
         private System.Windows.Forms.Button btnAttach;
+        private System.Windows.Forms.Button button1;
     }
 }

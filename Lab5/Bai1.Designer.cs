@@ -39,6 +39,7 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnSend
@@ -136,11 +137,22 @@
             this.label5.TabIndex = 10;
             this.label5.Text = "Body:";
             // 
-            // Form1
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(23, 478);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(139, 59);
+            this.button1.TabIndex = 11;
+            this.button1.Text = "Exit";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // Bai1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1115, 576);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
@@ -152,7 +164,7 @@
             this.Controls.Add(this.tbTo);
             this.Controls.Add(this.tbFrom);
             this.Controls.Add(this.btnSend);
-            this.Name = "Form1";
+            this.Name = "Bai1";
             this.Text = "Form1";
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -172,6 +184,7 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Button button1;
     }
 }
 
