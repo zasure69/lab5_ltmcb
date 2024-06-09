@@ -35,3 +35,4 @@ C:\TLHT\HK2_2023-2024\LapTrinhMangCanBan\TH\LAB5\Lab5\Lab5\bin\Debug\System.Valu
 C:\TLHT\HK2_2023-2024\LapTrinhMangCanBan\TH\LAB5\Lab5\Lab5\obj\Debug\Lab5.Bai2.resources
 C:\TLHT\HK2_2023-2024\LapTrinhMangCanBan\TH\LAB5\Lab5\Lab5\obj\Debug\Lab5.Bai3.resources
 C:\TLHT\HK2_2023-2024\LapTrinhMangCanBan\TH\LAB5\Lab5\Lab5\obj\Debug\Lab5.csproj.Up2Date
+C:\TLHT\HK2_2023-2024\LapTrinhMangCanBan\TH\LAB5\Lab5\Lab5\obj\Debug\Lab5.Dashboard.resources
