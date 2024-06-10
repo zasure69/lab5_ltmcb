@@ -90,6 +90,37 @@ namespace Lab5
             string subject = tbSubject.Text.Trim();
             string body = rtbBody.Text.Trim();
             string attach = tbAttach.Text.Trim();
+            if (tbFrom.Text.Length == 0 && tbTo.Text.Length == 0 && tbSubject.Text.Length == 0 && rtbBody.Text.Length == 0)
+            {
+                MessageBox.Show("Vui lòng nhập đầy đủ thông tin!","Warning");
+                return;
+            }
+            else if (mailfrom == "")
+            {
+                MessageBox.Show("Hãy điền email từ", "Warning");
+                return;
+            }
+            else if (mailto == "")
+            {
+                MessageBox.Show("Hãy điền email tới", "Warning");
+                return;
+            }
+            else if (password == "")
+            {
+                MessageBox.Show("Hãy điền password!", "Warning");
+                return;
+            }
+            else if (subject == "")
+            {
+                MessageBox.Show("Hãy điền chủ đề!", "Warning");
+                return;
+            }
+            else if (body == "")
+            {
+                MessageBox.Show("Hãy điền nội dung vô phần body", "Warning");
+                return;
+            }
+
             CleanUp();
 
             try
@@ -106,6 +137,11 @@ namespace Lab5
         private void button1_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void tbSubject_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
