@@ -28,12 +28,31 @@ namespace Lab5
             listView1.Columns.Add("From", 100);
             listView1.Columns.Add("Date time", 100);
             listView1.View = View.Details;
+            tbPw.PasswordChar = '*';
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
             string email = tbEmail.Text.Trim();
             string password = tbPw.Text.Trim();
+            
+            if (email == "" && password == "")
+            {
+                MessageBox.Show("Bạn chưa điền gì cả hãy điền đầy đủ thông tin!", "Warning");
+                return;
+            }
+
+            if (email == "")
+            {
+                MessageBox.Show("Hãy điền email", "Warning");
+                return;
+            }
+
+            if (password == "")
+            {
+                MessageBox.Show("Hãy điền password", "Warning");
+                return;
+            }
 
             using (var client = new ImapClient())
             {

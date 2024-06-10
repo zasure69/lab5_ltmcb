@@ -104,6 +104,7 @@
             this.tbSubject.Name = "tbSubject";
             this.tbSubject.Size = new System.Drawing.Size(814, 24);
             this.tbSubject.TabIndex = 6;
+            this.tbSubject.TextChanged += new System.EventHandler(this.tbSubject_TextChanged);
             // 
             // label4
             // 

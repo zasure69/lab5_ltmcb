@@ -73,6 +73,7 @@
             this.tbPwd.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.tbPwd.Location = new System.Drawing.Point(712, 35);
             this.tbPwd.Name = "tbPwd";
+            this.tbPwd.PasswordChar = '*';
             this.tbPwd.Size = new System.Drawing.Size(257, 27);
             this.tbPwd.TabIndex = 3;
             // 
